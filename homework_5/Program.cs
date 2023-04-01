@@ -78,11 +78,11 @@ for (int a = 0; a < numbers.Length; a++)
 {
     if (numbers[a] > max)
         {
-            max = numbers[z];
+            max = numbers[a];
         }
     if (numbers[a] < min)
         {
-            min = numbers[z];
+            min = numbers[a];
         }
 }
 
